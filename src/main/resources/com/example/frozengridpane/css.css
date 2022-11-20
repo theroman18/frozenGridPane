@@ -1,0 +1,4 @@
+
+.headerScrollPane .scroll-bar:horizontal {
+    visibility: collapse;
+}

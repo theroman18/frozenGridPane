@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.frozengridpane.HelloController" fx:id="results_pane" >
+<top>
+    <ScrollPane fx:id="headerScrollPane">
+        <padding>
+            <Insets right="16"/>
+        </padding>
+        <GridPane fx:id="headerGridPane">
+
+        </GridPane>
+    </ScrollPane>
+</top>
+<center>
+    <ScrollPane fx:id="mainScrollPane">
+        <GridPane fx:id="mainGridPane">
+
+        </GridPane>
+    </ScrollPane>
+</center>
+<!--<right>-->
+<!--    <VBox fx:id="queue_button_tools" alignment="BOTTOM_LEFT" >-->
+
+<!--        <ScrollPane hbarPolicy="NEVER" fx:id="queue_scrollpane" >-->
+<!--            <VBox fx:id="selected_page_queue">-->
+<!--                <padding><Insets top="0" right="10" bottom="0" left="0"/></padding>-->
+<!--            </VBox>-->
+<!--        </ScrollPane>-->
+<!--        <HBox>-->
+<!--            <Button prefWidth="105" fx:id="view_all">View</Button>-->
+<!--            <Button prefWidth="105" fx:id="remove_all" >Remove All</Button>-->
+<!--        </HBox>-->
+<!--    </VBox>-->
+<!--</right>-->
+</BorderPane>
